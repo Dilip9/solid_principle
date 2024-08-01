@@ -2,6 +2,7 @@ package org.solid.controller;
 
 import org.solid.model.Users;
 import org.solid.service.UsersService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
@@ -9,6 +10,7 @@ import org.springframework.web.bind.annotation.*;
 @CrossOrigin(origins = "*")
 public class UsersController {
 
+    @Autowired
     private UsersService usersService;
 
     @PostMapping("/create")

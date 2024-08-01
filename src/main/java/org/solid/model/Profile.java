@@ -4,7 +4,7 @@ public enum Profile {
     ENGINEER("ENGINEER"),
     DOCTOR("DOCTOR"),
     PLUMBER("PLUMBER"),
-    LOWYER("LOWYER"),
+    LAWYER("LAWYER"),
     GOVT_SERVICE("GOVT SERVICE");
 
     private String profileName;
